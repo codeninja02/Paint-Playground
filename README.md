@@ -28,9 +28,9 @@ Technologies used in this app are p5.js for canvas management, Firebase for data
 
 ## Setup
 
-Just set firebase configurations in the file <kbd>.\js\script.js</kbd> on line 86
+Just set your firebase configurations in the file (`\js\script.js`). on line (`86`)
 
-<kbd>
+```sh
   var config = {
     apiKey: "<YOUR_API_KEY>",
     authDomain: '<AUTH_DOMAIN>',
@@ -38,7 +38,6 @@ Just set firebase configurations in the file <kbd>.\js\script.js</kbd> on line 8
     storageBucket: '<BUCKET>',
     messagingSenderId: '<SENDER_ID>'
   };
-</kbd>
 
 
 
