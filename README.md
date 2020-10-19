@@ -4,16 +4,23 @@
 *** that motivates me a lot :D
 *** Thanks again!
 -->
-
+<!--
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
+-->
 
 <img src="https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/brushIcon.png?alt=media&token=0d8231c6-5f82-4fea-a421-d8d8e12f4f73" align="right" />
 
 # Awesome README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
-> Show off your creativity in the Paint PLayground!
+> Show off your creativity in the Paint Playground!
 
 You can create and upload your canvas in the public gallery and also edit other's creations in this awesome app.
+
+
+Paint Playground is a simple app where can can create your drawings on the canvas and share it in the public gallery. You can also view creations of others as well as edit them. It also gives some more amazing features like changing brush color and thickness and the background of the canvas.
+
+
+                        
 
