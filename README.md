@@ -29,7 +29,7 @@ Technologies used in this app are p5.js for canvas management, Firebase for data
 
 ## Setup
 
-Just set your firebase configurations in the file `\js\script.js)`. on line `86`
+Just set your firebase configurations in the file `\js\script.js)` on line `86`
 
 ```sh
   var config = {
