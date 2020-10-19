@@ -1,0 +1,190 @@
+/* Public Gallery */
+
+/* box-shadow: 20px 20px 50px 10px #222630 inset; */
+
+.user-c-DD{
+    height: calc(100vh - 45px);
+    overflow-y: scroll;
+    /* background: #17191f; */
+}
+
+.canvas-gallery-para{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #464c5c;
+    padding-top: 20px;
+    /* border-top: 2px solid #15171d; */
+}
+
+.users-canvas-container-HH{
+    margin-top: 20px;
+    border-bottom: 2px solid #15171d;
+    padding-bottom: 20px;
+}
+
+.user-canvas-HH{
+    height: 340px;
+    width: calc(100% - 20px);
+    background-color: #222630;
+    border: 3px solid #171920;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-canvas-container-MAIN{
+    height: 300px;
+    width: calc(100% - 40px);
+    background-color: #171920;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.user-canvas-info-BOX{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
+}
+
+.user-profile-HH{
+    color: white;
+    text-transform: uppercase;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #15171d;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.user-canvas-name-HH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 16px;
+    color: aliceblue;
+    font-family: 'HelveticaNormal';
+    flex: 1;
+}
+
+.user-canvas-btn-HH{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.user-canvas-BTN-HH-BTN{
+    width: 160px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 16px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #037fe2;
+    color: white;
+    border-radius: 10px;
+}
+
+.user-canvas-time-HH{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    color: #70788c;
+}
+
+.pickr {
+    opacity: 0 !important;
+}
+
+#userLoadingContainer8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-box{
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 34px;
+    color: #037fe2;
+    height: 32px;
+    width: 32px;
+    border-radius: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotate-this-forever{
+    animation-name: foreverRotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes foreverRotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+    
+}
+
+/* Splash Screen */
+
+.splash-screen-1{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(24 26 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    /* filter: blur(1000px); */
+}
+
+.spash-box{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(3 127 226);
+    border: 6px solid #ffffff;
+    border-radius: 1000px;
+    font-size: 28px;
+    color: white;
+    transition: 0.4s;
+    filter: blur(00px);
+}
