@@ -16,9 +16,8 @@
 # Paint Playground [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/codeninja02)
 > Show off your creativity in the Paint Playground!
 
-- This app is designed only for mobiles and not very responsive
-
 You can create and upload your canvas in the public gallery and also edit other's creations in this awesome app.
+This app is designed only for mobiles and not very responsive
 
 Paint Playground is a simple app where can can create your drawings on the canvas and share it in the public gallery. You can also view creations of others as well as edit them. It also gives some more amazing features like changing brush color and thickness and the background of the canvas.
 
