@@ -24,7 +24,9 @@ Technologies used in this app are p5.js for canvas management, Firebase for data
 
 ![Paint Playground Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/Frame%205.png?alt=media&token=0167292a-f4f3-437b-a21d-2fa9304bed31)
 
+```sh
 [VIEW DEMO](https://paint-playground-02.netlify.app)
+```
 
 ## Setup
 
@@ -37,7 +39,7 @@ Just set your firebase configurations in the file (`\js\script.js`). on line (`8
     databaseURL: '<DATABASE_URL>',
     storageBucket: '<BUCKET>',
     messagingSenderId: '<SENDER_ID>'
-  };
+  }
 ```
 
 
