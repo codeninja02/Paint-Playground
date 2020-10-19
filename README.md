@@ -38,7 +38,7 @@ Just set your firebase configurations in the file (`\js\script.js`). on line (`8
     storageBucket: '<BUCKET>',
     messagingSenderId: '<SENDER_ID>'
   };
-
+```
 
 
 
