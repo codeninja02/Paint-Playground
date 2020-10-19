@@ -16,590 +16,592 @@
 </head>
 <body class="body">
     
-    <div class="hidden">
-        <p>
-            <button id="saveButton">save</button>
-            <button id="clearButton">clear</button>
-        </p>
-        <ol id="drawinglist"></ol>
-    </div>
-
-    <div class="superbody-1 an-20">
-        <!-- Section 1 -->
-
-    <div class="section-1-super-container">
-
-        <div class="section-1 fex__1">
-            <div class="flex">
-
-                <div class="nav-c-1">
-
-                    <!-- <div class="flip-horizontal nav-c-2">
-                        <div class="side-menu-icon">
-                            <div class="s-m-i-1"></div>
-                            <div class="s-m-i-2"></div>
-                            <div class="s-m-i-3"></div>
-                        </div>
-                    </div> -->
-                    <ion-icon id="openSideMenuIcon" class="grid-icon-1" name="menu"></ion-icon>
-
-                </div>
-
-                <div class="flex nav-c--2">
-                    <div class="name-c-1">
-                        <input id="nameInput1" class="nameField" type="text" value="Anonymous" placeholder="Enter Name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="20" disabled>
+    <div class="super-body">
+        <div class="hidden">
+            <p>
+                <button id="saveButton">save</button>
+                <button id="clearButton">clear</button>
+            </p>
+            <ol id="drawinglist"></ol>
+        </div>
+    
+        <div class="superbody-1 an-20">
+            <!-- Section 1 -->
+    
+        <div class="section-1-super-container">
+    
+            <div class="section-1 fex__1">
+                <div class="flex">
+    
+                    <div class="nav-c-1">
+    
+                        <!-- <div class="flip-horizontal nav-c-2">
+                            <div class="side-menu-icon">
+                                <div class="s-m-i-1"></div>
+                                <div class="s-m-i-2"></div>
+                                <div class="s-m-i-3"></div>
+                            </div>
+                        </div> -->
+                        <ion-icon id="openSideMenuIcon" class="grid-icon-1" name="menu"></ion-icon>
+    
                     </div>
-                    <div id="editNameBtn1" class="name-c-2 ripple">
-                        <ion-icon name="create-outline" class="nav-icon-2"></ion-icon>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="canvas-container-1 fex__1">
-            <div class="canvas-main-container">
-                <div id="canvascontainer"></div>
-            </div>
-            <!-- <div class="brush-exper-1">
-                <ion-icon class="brush-exper-1-icon" name="brush"></ion-icon>
-            </div> -->
-        </div>
-
-        <div id="goBackTOMENUopts2" class="go-back-btn-1">
-            <div class="ripple gbb-1">
-                <ion-icon name="arrow-back"></ion-icon>
-            </div>
-        </div>
-
-        <div id="impCont1" class="tr-1 edit-tools-2">
-
-            <div id="setThickness" class="set-thickness-c-1">
-
-                <div class="wrapper">
-                    <custom-slider min="1" 
-                                   max="60" 
-                                   value="4"
-                                   step="1">
-                    </custom-slider>
-                </div>
-                
-            </div>
-
-            <div class="floating-select-color-btn">
-                    <div class="pickrContainer-2">.</div>
-            </div>
-
-            <ul id="chooseColor" class="choose-color-c-1">
-                <div class="color-c ripple"><div id="chooseColorBB2"></div></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                <div class="color-c ripple"></div>
-                
-            </ul>
-
-            <div class="e-t-close-1">
-                <div id="bottomOptionsCont" class="flex e-t--f-c-container">
-
-                    <div class="e-t--f-c-1 home2BtnsAll" id="codeGalleryOpenBtn">
-                        <div class="e-t--f-c-1-1">
-                            <ion-icon class="etfc-icon" name="color-palette"></ion-icon>
+    
+                    <div class="flex nav-c--2">
+                        <div class="name-c-1">
+                            <input id="nameInput1" class="nameField" type="text" value="Anonymous" placeholder="Enter Name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="20" disabled>
                         </div>
-                        <div class="e-t--f-c-1-2">
-                            Public Gallery
+                        <div id="editNameBtn1" class="name-c-2 ripple">
+                            <ion-icon name="create-outline" class="nav-icon-2"></ion-icon>
                         </div>
                     </div>
-
-                    <div class="e-t--f-c-1 home2BtnsAll" id="openGithubBtn">
-                        <a href="https://github.com/codeninja02/Paint-Playground" target="_blank">
+    
+                </div>
+            </div>
+    
+            <div class="canvas-container-1 fex__1">
+                <div class="canvas-main-container">
+                    <div id="canvascontainer"></div>
+                </div>
+                <!-- <div class="brush-exper-1">
+                    <ion-icon class="brush-exper-1-icon" name="brush"></ion-icon>
+                </div> -->
+            </div>
+    
+            <div id="goBackTOMENUopts2" class="go-back-btn-1">
+                <div class="ripple gbb-1">
+                    <ion-icon name="arrow-back"></ion-icon>
+                </div>
+            </div>
+    
+            <div id="impCont1" class="tr-1 edit-tools-2">
+    
+                <div id="setThickness" class="set-thickness-c-1">
+    
+                    <div class="wrapper">
+                        <custom-slider min="1" 
+                                       max="60" 
+                                       value="4"
+                                       step="1">
+                        </custom-slider>
+                    </div>
+                    
+                </div>
+    
+                <div class="floating-select-color-btn">
+                        <div class="pickrContainer-2">.</div>
+                </div>
+    
+                <ul id="chooseColor" class="choose-color-c-1">
+                    <div class="color-c ripple"><div id="chooseColorBB2"></div></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    <div class="color-c ripple"></div>
+                    
+                </ul>
+    
+                <div class="e-t-close-1">
+                    <div id="bottomOptionsCont" class="flex e-t--f-c-container">
+    
+                        <div class="e-t--f-c-1 home2BtnsAll" id="codeGalleryOpenBtn">
                             <div class="e-t--f-c-1-1">
-                                <ion-icon class="etfc-icon" name="logo-github"></ion-icon>
+                                <ion-icon class="etfc-icon" name="color-palette"></ion-icon>
                             </div>
                             <div class="e-t--f-c-1-2">
-                                Get Code
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="e-t--f-c-1 home2BtnsAll" id="clearCanvasBtn">
-                        <div class="e-t--f-c-1-1">
-                            <ion-icon class="etfc-icon" name="trash-outline"></ion-icon>
-                        </div>
-                        <div class="e-t--f-c-1-2">
-                            Clear Canvas
-                        </div>
-                    </div>
-
-                    <div class="e-t--f-c-1 home2BtnsAll" id="aboutBtn">
-                        <div class="e-t--f-c-1-1">
-                            <ion-icon class="etfc-icon" name="information-outline"></ion-icon>
-                        </div>
-                        <div class="e-t--f-c-1-2">
-                            About
-                        </div>
-                    </div>
-
-                </div>
-
-                <div id="aboutScreen">
-                    <div class="goBackToBasic2">
-                        <ion-icon class="goBackBtnICON2" name="arrow-back-outline"></ion-icon>
-                    </div>
-
-                    <div class="about-heading-1-1">
-                        About
-                    </div>
-
-                    <div class="about-p-1">
-                        <p>
-                            Paint Playground is a simple app where can can create your drawings on the canvas and share it in the public gallery. You can also view creations of others as well as edit them. It also gives some more amazing features like changing brush color and thickness and the background of the canvas.
-                        </p>
-                    </div>
-
-                    <div class="about-p-2">
-                        Technologies used in this app are p5.js for canvas management, Firebase for database to store users creations, jQuery and basic web technologies - HTML, CSS and JavaScript.
-                    </div>
-
-                    <div class="about-heading-1-2">
-                        Credits and Mentions
-                    </div>
-
-                    <div class="about-p-2">
-                        A very thanks to -
-                        <ul class="aboutThanks-2">
-
-                            <li class="aboutThanks-1-1">
-                                <a href="https://github.com/itsBadBit" target="_blank"><span class="github-p">Bad_Bit</span></a> for the <a href="#"><span class="comp-1">Custom Range Slider</span></a>
-                            </li>
-                            <li class="aboutThanks-1-1">
-                                <a href="https://github.com/SirBaaron" target="_blank"><span class="github-p">SirBaaron</span></a> for the <a href="https://github.com/SirBaaron/ripple-js" target="_blank"><span class="comp-1">ripple.js</span></a> library
-                            </li>
-                            <li class="aboutThanks-1-1">
-                                <a href="https://github.com/Simonwep" target="_blank"><span class="github-p">Simonwep</span></a> for the <a href="https://github.com/Simonwep/pickr" target="_blank"><span class="comp-1">pickr</span></a> library
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="about-heading-1-2">
-                        Social Links
-                    </div>
-
-                    <ul class="aboutSocialLinks-1">
-                        <a href="https://github.com/codeninja02" target="_blank"><li class="aboutSocialLinks-1-1"><ion-icon name="logo-github"></ion-icon> Github</li></a>
-                        <a href="https://www.instagram.com/codeninja02/" target="_blank"><li class="aboutSocialLinks-1-1"><ion-icon name="logo-instagram"></ion-icon> Instagram</li></a>
-                    </ul>
-
-                    <div class="copy-signature-1">
-                        &copy; Programmer 2020
-                    </div>
-
-                </div>
-
-                <div id="galleryScreen">
-                    <div class="goBackToBasic4">
-                        <div class="gallery-content-1">
-                            <ion-icon id="goFromGalleryToBasic4" class="goBackBtnICON2" name="arrow-back-outline"></ion-icon>
-                        </div>
-                        <div id="thisIsRefreshBTNmain" class="gallery-content-2 ripple">
-                            Refersh
-                            <ion-icon id="refreshGalleryBtn8" class="refreshGalleryBtn4" name="refresh-circle"></ion-icon>
-                        </div>
-                    </div>
-
-                    <div id="userLoadingContainer8">
-                        <div class="loading-box">
-                            <ion-icon class="rotate-this-forever" name="refresh-circle"></ion-icon>
-                        </div>
-                    </div>
-
-                    <div id="scrollCheckDDDD" class="user-c-DD">
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas1">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas2">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas3">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas4">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas5">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas6">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas7">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Nov 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="users-canvas-container-HH">
-                            <div class="user-canvas-HH">
-                                <div class="user-canvas-container-MAIN" id="userCanvas8">
-                                    
-                                </div>
-                            </div>
-                            <div class="user-canvas-info-BOX">
-                                <div class="user-profile-HH">
-                                    A
-                                </div>
-                                <div class="user-canvas-name-HH">
-                                    <div class="user-canvas-time-HH-B">
-                                        Anonymous
-                                    </div>
-                                    <div class="user-canvas-time-HH">
-                                        16 Oct 2020
-                                    </div>
-                                </div>
-                                <div class="user-canvas-btn-HH">
-                                    <div class="user-canvas-BTN-HH-BTN ripple">
-                                        Fork this canvas
-                                    </div>
-                                </div>
+                                Public Gallery
                             </div>
                         </div>
     
-                        <p class="canvas-gallery-para">
-                            This gallery shows the eight most recentl canvas. The owner of this code is not responsible for any canvas which is inappropriate or offensive to others in any way.
-                        </p>
-
+                        <div class="e-t--f-c-1 home2BtnsAll" id="openGithubBtn">
+                            <a href="https://github.com/codeninja02/Paint-Playground" target="_blank">
+                                <div class="e-t--f-c-1-1">
+                                    <ion-icon class="etfc-icon" name="logo-github"></ion-icon>
+                                </div>
+                                <div class="e-t--f-c-1-2">
+                                    Get Code
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="e-t--f-c-1 home2BtnsAll" id="clearCanvasBtn">
+                            <div class="e-t--f-c-1-1">
+                                <ion-icon class="etfc-icon" name="trash-outline"></ion-icon>
+                            </div>
+                            <div class="e-t--f-c-1-2">
+                                Clear Canvas
+                            </div>
+                        </div>
+    
+                        <div class="e-t--f-c-1 home2BtnsAll" id="aboutBtn">
+                            <div class="e-t--f-c-1-1">
+                                <ion-icon class="etfc-icon" name="information-outline"></ion-icon>
+                            </div>
+                            <div class="e-t--f-c-1-2">
+                                About
+                            </div>
+                        </div>
+    
                     </div>
-
+    
+                    <div id="aboutScreen">
+                        <div class="goBackToBasic2">
+                            <ion-icon class="goBackBtnICON2" name="arrow-back-outline"></ion-icon>
+                        </div>
+    
+                        <div class="about-heading-1-1">
+                            About
+                        </div>
+    
+                        <div class="about-p-1">
+                            <p>
+                                Paint Playground is a simple app where can can create your drawings on the canvas and share it in the public gallery. You can also view creations of others as well as edit them. It also gives some more amazing features like changing brush color and thickness and the background of the canvas.
+                            </p>
+                        </div>
+    
+                        <div class="about-p-2">
+                            Technologies used in this app are p5.js for canvas management, Firebase for database to store users creations, jQuery and basic web technologies - HTML, CSS and JavaScript.
+                        </div>
+    
+                        <div class="about-heading-1-2">
+                            Credits and Mentions
+                        </div>
+    
+                        <div class="about-p-2">
+                            A very thanks to -
+                            <ul class="aboutThanks-2">
+    
+                                <li class="aboutThanks-1-1">
+                                    <a href="https://github.com/itsBadBit" target="_blank"><span class="github-p">Bad_Bit</span></a> for the <a href="#"><span class="comp-1">Custom Range Slider</span></a>
+                                </li>
+                                <li class="aboutThanks-1-1">
+                                    <a href="https://github.com/SirBaaron" target="_blank"><span class="github-p">SirBaaron</span></a> for the <a href="https://github.com/SirBaaron/ripple-js" target="_blank"><span class="comp-1">ripple.js</span></a> library
+                                </li>
+                                <li class="aboutThanks-1-1">
+                                    <a href="https://github.com/Simonwep" target="_blank"><span class="github-p">Simonwep</span></a> for the <a href="https://github.com/Simonwep/pickr" target="_blank"><span class="comp-1">pickr</span></a> library
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="about-heading-1-2">
+                            Social Links
+                        </div>
+    
+                        <ul class="aboutSocialLinks-1">
+                            <a href="https://github.com/codeninja02" target="_blank"><li class="aboutSocialLinks-1-1"><ion-icon name="logo-github"></ion-icon> Github</li></a>
+                            <a href="https://www.instagram.com/codeninja02/" target="_blank"><li class="aboutSocialLinks-1-1"><ion-icon name="logo-instagram"></ion-icon> Instagram</li></a>
+                        </ul>
+    
+                        <div class="copy-signature-1">
+                            &copy; Programmer 2020
+                        </div>
+    
+                    </div>
+    
+                    <div id="galleryScreen">
+                        <div class="goBackToBasic4">
+                            <div class="gallery-content-1">
+                                <ion-icon id="goFromGalleryToBasic4" class="goBackBtnICON2" name="arrow-back-outline"></ion-icon>
+                            </div>
+                            <div id="thisIsRefreshBTNmain" class="gallery-content-2 ripple">
+                                Refersh
+                                <ion-icon id="refreshGalleryBtn8" class="refreshGalleryBtn4" name="refresh-circle"></ion-icon>
+                            </div>
+                        </div>
+    
+                        <div id="userLoadingContainer8">
+                            <div class="loading-box">
+                                <ion-icon class="rotate-this-forever" name="refresh-circle"></ion-icon>
+                            </div>
+                        </div>
+    
+                        <div id="scrollCheckDDDD" class="user-c-DD">
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas1">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas2">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas3">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas4">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas5">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas6">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas7">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Nov 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="users-canvas-container-HH">
+                                <div class="user-canvas-HH">
+                                    <div class="user-canvas-container-MAIN" id="userCanvas8">
+                                        
+                                    </div>
+                                </div>
+                                <div class="user-canvas-info-BOX">
+                                    <div class="user-profile-HH">
+                                        A
+                                    </div>
+                                    <div class="user-canvas-name-HH">
+                                        <div class="user-canvas-time-HH-B">
+                                            Anonymous
+                                        </div>
+                                        <div class="user-canvas-time-HH">
+                                            16 Oct 2020
+                                        </div>
+                                    </div>
+                                    <div class="user-canvas-btn-HH">
+                                        <div class="user-canvas-BTN-HH-BTN ripple">
+                                            Fork this canvas
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <p class="canvas-gallery-para">
+                                This gallery shows the eight most recentl canvas. The owner of this code is not responsible for any canvas which is inappropriate or offensive to others in any way.
+                            </p>
+    
+                        </div>
+    
+                    </div>
+    
                 </div>
-
+    
             </div>
-
-        </div>
-
-        <div id="bottomToolsContainer" class="flex bottom-tools fex__1">
-
-            <div id="colorSBtn" class="b-t-c-1">
-                <div class="bc-1">
-                    <div id="CSBA" class="color-container cc1"></div>
-                </div>
-                <div id="CSB1" class="bc-1">
-                    Color
-                </div>
-            </div>
-
-            <div id="backgroundSBtn" class="b-t-c-1">
-                <div class="bc-1">
-                    <div id="CSBB" class="color-container cc2"></div>
-                </div>
-                <div id="CSB2" class="bc-1">
-                    Background
-                </div>
-            </div>
-
-            <div id="thicknessSBtn" class="b-t-c-1">
-                <div class="bc-1">
-                    <div id="CSBC" class="pencil-1-container">
-                        <ion-icon class="pencil-1" name="pencil-outline"></ion-icon>
+    
+            <div id="bottomToolsContainer" class="flex bottom-tools fex__1">
+    
+                <div id="colorSBtn" class="b-t-c-1">
+                    <div class="bc-1">
+                        <div id="CSBA" class="color-container cc1"></div>
+                    </div>
+                    <div id="CSB1" class="bc-1">
+                        Color
                     </div>
                 </div>
-                <div id="CSB3" class="bc-1">
-                    Thickness
+    
+                <div id="backgroundSBtn" class="b-t-c-1">
+                    <div class="bc-1">
+                        <div id="CSBB" class="color-container cc2"></div>
+                    </div>
+                    <div id="CSB2" class="bc-1">
+                        Background
+                    </div>
                 </div>
+    
+                <div id="thicknessSBtn" class="b-t-c-1">
+                    <div class="bc-1">
+                        <div id="CSBC" class="pencil-1-container">
+                            <ion-icon class="pencil-1" name="pencil-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div id="CSB3" class="bc-1">
+                        Thickness
+                    </div>
+                </div>
+    
+                <!-- <div class="b-t-c-1 btc1-1">
+                    <div class="upload-c-1-1">
+                        <ion-icon class="send-up-1" name="send"></ion-icon>
+                    </div>
+                </div> -->
+    
             </div>
-
-            <!-- <div class="b-t-c-1 btc1-1">
-                <div class="upload-c-1-1">
+    
+            <div id="bottomSubmitCanvasBTN" class="upload-c-1-1 fex__2">
+                <div class="ripple send-btn-2 fex__1" id="sendBtn2" style="height: 50px; background: #037fe2; margin-right: 4px; width: 50px; border-radius: 100px; display: flex; justify-content: center; align-items: center; font-size: 20px; color: white; position: fixed; bottom: 20px; right: 10px;">
                     <ion-icon class="send-up-1" name="send"></ion-icon>
                 </div>
-            </div> -->
-
-        </div>
-
-        <div id="bottomSubmitCanvasBTN" class="upload-c-1-1 fex__2">
-            <div class="ripple send-btn-2 fex__1" id="sendBtn2" style="height: 50px; background: #037fe2; margin-right: 4px; width: 50px; border-radius: 100px; display: flex; justify-content: center; align-items: center; font-size: 20px; color: white; position: fixed; bottom: 20px; right: 10px;">
-                <ion-icon class="send-up-1" name="send"></ion-icon>
             </div>
         </div>
-    </div>
-
-    <div id="sideMenuMain" class="sidemenu-container">
-        <div id="sideMenuMainBB" class="sidemenu-INN">
-            <!-- <a href="https://www.sololearn.com/Profile/17904120/?ref=app" target="_blank">
-                <div class="side-cont-BB">
-                    <div class="side-cont-BB-A"><ion-icon name="person-outline"></ion-icon></div>
-                    <div class="side-cont-BB-B">Follow Me</div>
-                </div>
-            </a> -->
-            <a href="https://www.instagram.com/codeninja02/" target="_blank">
-                <div class="side-cont-BB">
-                    <div class="side-cont-BB-A"><ion-icon name="logo-instagram"></ion-icon></div>
-                    <div class="side-cont-BB-B">My Instagram</div>
-                </div>
-            </a>
-            <a href="https://github.com/codeninja02" target="_blank">
-                <div class="side-cont-BB">
-                    <div class="side-cont-BB-A"><ion-icon name="logo-github"></ion-icon></div>
-                    <div class="side-cont-BB-B">My Github</div>
-                </div>
-            </a>
-            <a id="publicGalleryDD">
-                <div class="side-cont-BB">
-                    <div class="side-cont-BB-A"><ion-icon name="color-palette-outline"></ion-icon></div>
-                    <div class="side-cont-BB-B">Public Gallery</div>
-                </div>
-            </a>
-            <a id="clearCanvasDD">
-                <div class="side-cont-BB">
-                    <div class="side-cont-BB-A"><ion-icon name="trash-outline"></ion-icon></div>
-                    <div class="side-cont-BB-B">Clear Canvas</div>
-                </div>
-            </a>
-            <a id="closeSideMenuBB">
-                <div class="side-cont-BB--B">
-                    <div class="side-cont-BB-A"><ion-icon name="close-outline"></ion-icon></div>
-                    <div class="side-cont-BB-B">Close</div>
-                </div>
-            </a>
-        </div>
-    </div>
-
-    </div> <!-- Superbody End -->
-
-    <div id="super2" class="superbody-2 an-20">
-
-        <div id="goBackToHomeAB60" class="go-back-4">
-            <ion-icon class="go-back-4-icon-B" name="arrow-back-outline"></ion-icon>
-        </div>
-        
-        <div id="previewCanvasBorder2" class="prev-cont-2">
-            <div class="canvas-cont-2">
-                <div id="userDrawingPreview2" class="user-drawing-canvas-2"></div>
-            </div>
-        </div>
-
-        <div class="prev-input-cont-20">
-            <div class="prev-input-20">
-                <div id="nameValueB" class="prev-i-i-A">
-                    Anonymous
-                </div>
-                <div id="editNameBB" class="prev-i-i-B ripple">
-                    <ion-icon class="prev-i-icon-B" name="create-outline"></ion-icon>
-                </div>
-            </div>
-        </div>
-
-        <div id="uploadCanvasBtn" class="prev-btn-20 ripple">
-            Upload
-        </div>
-
-        <div class="p-u--cccc-24">
-            <p class="upload-cont-p-24">
-                By clicking the "Upload" button, your canvas will be uploaded to the public gallery. You can view your canvas by choosing the "Public Gallery" option in the Home.
-            </p>
-        </div>
-
-        <div id="alert1" class="alert-uploading">
-            <!-- <div class="alert-circle"></div> -->
-            <div class="alert-box">
-                <div class="alert-circle"></div>
-                <div class="alert-icon">
-                    <ion-icon id="uploadIconTxt1" class="alert-ii-icon" name="alert-outline"></ion-icon>
-                    <ion-icon id="uploadIconTxt2" class="alert-ii-icon" name="checkmark-outline"></ion-icon>
-                </div>
-                <div id="uploadingTxt1" class="alert-title">
-                    <div class="alert-title-A">
-                        You can only upload one canvas at a time :)
+    
+        <div id="sideMenuMain" class="sidemenu-container">
+            <div id="sideMenuMainBB" class="sidemenu-INN">
+                <!-- <a href="https://www.sololearn.com/Profile/17904120/?ref=app" target="_blank">
+                    <div class="side-cont-BB">
+                        <div class="side-cont-BB-A"><ion-icon name="person-outline"></ion-icon></div>
+                        <div class="side-cont-BB-B">Follow Me</div>
                     </div>
-                    <!-- <div class="alert-title-B">
-                        <p class="saving"><span>.</span><span>.</span><span>.</span></p>
+                </a> -->
+                <a href="https://www.instagram.com/codeninja02/" target="_blank">
+                    <div class="side-cont-BB">
+                        <div class="side-cont-BB-A"><ion-icon name="logo-instagram"></ion-icon></div>
+                        <div class="side-cont-BB-B">My Instagram</div>
+                    </div>
+                </a>
+                <a href="https://github.com/codeninja02" target="_blank">
+                    <div class="side-cont-BB">
+                        <div class="side-cont-BB-A"><ion-icon name="logo-github"></ion-icon></div>
+                        <div class="side-cont-BB-B">My Github</div>
+                    </div>
+                </a>
+                <a id="publicGalleryDD">
+                    <div class="side-cont-BB">
+                        <div class="side-cont-BB-A"><ion-icon name="color-palette-outline"></ion-icon></div>
+                        <div class="side-cont-BB-B">Public Gallery</div>
+                    </div>
+                </a>
+                <a id="clearCanvasDD">
+                    <div class="side-cont-BB">
+                        <div class="side-cont-BB-A"><ion-icon name="trash-outline"></ion-icon></div>
+                        <div class="side-cont-BB-B">Clear Canvas</div>
+                    </div>
+                </a>
+                <a id="closeSideMenuBB">
+                    <div class="side-cont-BB--B">
+                        <div class="side-cont-BB-A"><ion-icon name="close-outline"></ion-icon></div>
+                        <div class="side-cont-BB-B">Close</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        </div> <!-- Superbody End -->
+    
+        <div id="super2" class="superbody-2 an-20">
+    
+            <div id="goBackToHomeAB60" class="go-back-4">
+                <ion-icon class="go-back-4-icon-B" name="arrow-back-outline"></ion-icon>
+            </div>
+            
+            <div id="previewCanvasBorder2" class="prev-cont-2">
+                <div class="canvas-cont-2">
+                    <div id="userDrawingPreview2" class="user-drawing-canvas-2"></div>
+                </div>
+            </div>
+    
+            <div class="prev-input-cont-20">
+                <div class="prev-input-20">
+                    <div id="nameValueB" class="prev-i-i-A">
+                        Anonymous
+                    </div>
+                    <div id="editNameBB" class="prev-i-i-B ripple">
+                        <ion-icon class="prev-i-icon-B" name="create-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="uploadCanvasBtn" class="prev-btn-20 ripple">
+                Upload
+            </div>
+    
+            <div class="p-u--cccc-24">
+                <p class="upload-cont-p-24">
+                    By clicking the "Upload" button, your canvas will be uploaded to the public gallery. You can view your canvas by choosing the "Public Gallery" option in the Home.
+                </p>
+            </div>
+    
+            <div id="alert1" class="alert-uploading">
+                <!-- <div class="alert-circle"></div> -->
+                <div class="alert-box">
+                    <div class="alert-circle"></div>
+                    <div class="alert-icon">
+                        <ion-icon id="uploadIconTxt1" class="alert-ii-icon" name="alert-outline"></ion-icon>
+                        <ion-icon id="uploadIconTxt2" class="alert-ii-icon" name="checkmark-outline"></ion-icon>
+                    </div>
+                    <div id="uploadingTxt1" class="alert-title">
+                        <div class="alert-title-A">
+                            You can only upload one canvas at a time :)
+                        </div>
+                        <!-- <div class="alert-title-B">
+                            <p class="saving"><span>.</span><span>.</span><span>.</span></p>
+                        </div> -->
+                    </div>
+                    <div id="uploadingTxt2" class="alert-title">
+                        <div class="alert-title-A">
+                            Uploaded Successfully
+                        </div>
+                    </div>
+                    <!-- <div class="alert-text-p">
+                        <p class="alert-paragraph"></p>
                     </div> -->
                 </div>
-                <div id="uploadingTxt2" class="alert-title">
-                    <div class="alert-title-A">
-                        Uploaded Successfully
-                    </div>
-                </div>
-                <!-- <div class="alert-text-p">
-                    <p class="alert-paragraph"></p>
-                </div> -->
+    
+                <div id="alertCrossBtnCC" class="alert-cross-btn"><ion-icon class="alert--icon ripple" name="close-outline"></ion-icon></div>
             </div>
-
-            <div id="alertCrossBtnCC" class="alert-cross-btn"><ion-icon class="alert--icon ripple" name="close-outline"></ion-icon></div>
+    
         </div>
-
-    </div>
-
-    <div class="splash-screen-1">
-        <div class="spash-box">
-            <ion-icon class="splash-icon" name="color-wand"></ion-icon>
+    
+        <div class="splash-screen-1">
+            <div class="spash-box">
+                <ion-icon class="splash-icon" name="color-wand"></ion-icon>
+            </div>
         </div>
     </div>
 
