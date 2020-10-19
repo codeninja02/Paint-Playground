@@ -22,7 +22,7 @@ Paint Playground is a simple app where can can create your drawings on the canva
 
 Technologies used in this app are p5.js for canvas management, Firebase for database to store users creations, jQuery and basic web technologies - HTML, CSS and JavaScript.
 
-![Paint Playground Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/Frame%205.png?alt=media&token=0167292a-f4f3-437b-a21d-2fa9304bed31)
+![Paint Playground Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/op.png?alt=media&token=563c9b3a-b662-48a9-9ec0-883a11151113)
 
 - [VIEW DEMO](https://paint-playground-02.netlify.app)
 
@@ -40,6 +40,8 @@ Just set your firebase configurations in the file `\js\script.js)`. on line `86`
   }
 ```
 
+## Social Links
 
+- [INSTAGRAM](https://www.instagram.com/codeninja02/)
 
 
